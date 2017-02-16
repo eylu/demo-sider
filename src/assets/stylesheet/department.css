@@ -1,0 +1,42 @@
+.department {
+    padding: 35px 30px;
+}
+
+.department-title {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.department-title .txt {
+    font-size: 18px;
+}
+
+.depart {
+    margin-bottom: 10px;
+}
+
+.depart ul {
+    padding: 5px 0 5px 20px;
+}
+
+.depart ul li {
+    padding: 2px;
+    opacity: 0.8;
+}
+
+.depart ul li:hover{
+    opacity: 1;
+}
+
+.depart ul li .count{
+    width: 30px;
+    text-align: right;
+}
+
+.depart-name .count{
+    background: #516a76;
+    padding: 2px 8px;
+    border-radius: 16px;
+}
