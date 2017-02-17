@@ -16,7 +16,7 @@ export default class Sider extends Component{
         return(
             <div className="sider">
                 <div className="department">
-                    <div className="department-title clearfix">
+                    <div className="department-head clearfix">
                         <span className="txt l">招聘职位</span>
                         <span className="r">清空</span>
                     </div>

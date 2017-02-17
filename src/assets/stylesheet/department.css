@@ -1,15 +1,16 @@
+
 .department {
     padding: 35px 30px;
 }
 
-.department-title {
+.department-head {
     font-size: 12px;
     height: 30px;
     line-height: 30px;
     margin-bottom: 10px;
 }
 
-.department-title .txt {
+.department-head .txt {
     font-size: 18px;
 }
 
@@ -17,26 +18,33 @@
     margin-bottom: 10px;
 }
 
-.depart ul {
+.depart-title .name {
+    margin-left: 5px;
+}
+.depart-title .count {
+    background: #516a76;
+    padding: 2px 8px;
+    border-radius: 16px;
+}
+
+.jobs {
     padding: 5px 0 5px 20px;
 }
 
-.depart ul li {
+.jobs li {
     padding: 2px;
     opacity: 0.8;
 }
 
-.depart ul li:hover{
+.jobs li:hover {
     opacity: 1;
 }
 
-.depart ul li .count{
-    width: 30px;
-    text-align: right;
+.jobs .name {
+    margin-left: 5px;
 }
 
-.depart-name .count{
-    background: #516a76;
-    padding: 2px 8px;
-    border-radius: 16px;
+.jobs .count {
+    width: 30px;
+    text-align: right;
 }
